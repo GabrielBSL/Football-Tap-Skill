@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2480013501188706293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2480013501188706291}
+  - component: {fileID: 2480013501188706290}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2480013501188706291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480013501188706293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2480013501188706290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2480013501188706293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac65de665edc71459bdccd8edbdf337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  countries:
+  - name: Argentina
+    flag: {fileID: 21300000, guid: 69bcce52c5a78934f8365edd3ebc98e6, type: 3}
+  - name: Australia
+    flag: {fileID: 21300000, guid: 03fc2dda34827b64bbf268eaa0a54184, type: 3}
+  - name: Belgica
+    flag: {fileID: 21300000, guid: cc7956d19e8410b40b626478ea94ceeb, type: 3}
+  - name: Brasil
+    flag: {fileID: 21300000, guid: f66f7083e30fcad4cb2c201049f50495, type: 3}
+  - name: Camaroes
+    flag: {fileID: 21300000, guid: fb084ef5f26f4ea4894efd2a778f997a, type: 3}
+  - name: Canada
+    flag: {fileID: 21300000, guid: 14a20f27efb70ec408d3eb9c9086dae3, type: 3}
+  - name: Costa Rica
+    flag: {fileID: 21300000, guid: f9c63ef36a935234bb9eb2a17eef51fb, type: 3}
+  - name: Croacia
+    flag: {fileID: 21300000, guid: 2f8d6873e04838d4497e4280bb3b7c25, type: 3}
+  - name: Dinamarca
+    flag: {fileID: 21300000, guid: 347d123932049c940a752243864a8452, type: 3}
+  - name: Inglaterra
+    flag: {fileID: 21300000, guid: 1cbffc06c27b6dd4d92e1b8a91f81823, type: 3}
+  - name: Equador
+    flag: {fileID: 21300000, guid: b7c148365ac299449ab9f1388e09a934, type: 3}
+  - name: Franca
+    flag: {fileID: 21300000, guid: 1bb9bedd6065bee438f1524f038c778b, type: 3}
+  - name: Alemanha
+    flag: {fileID: 21300000, guid: 7aff45e67a83bf1478e87b7c6bb1a0ef, type: 3}
+  - name: Gana
+    flag: {fileID: 21300000, guid: 451f3bf9033f75e49b101bf02ef8dc58, type: 3}
+  - name: Holanda
+    flag: {fileID: 21300000, guid: ba54c891962360f46aabc1085695ae2f, type: 3}
+  - name: Iran
+    flag: {fileID: 21300000, guid: 2b929227c482b8742a31628c421b704a, type: 3}
+  - name: Japao
+    flag: {fileID: 21300000, guid: 4bcd66009cf769f459b59d7ff5d4bd2d, type: 3}
+  - name: Marrocos
+    flag: {fileID: 21300000, guid: e84d8bb106003a3468c1f863b8247973, type: 3}
+  - name: Mexico
+    flag: {fileID: 21300000, guid: 65fe30a4c7fc4b54aac077103367bdb2, type: 3}
+  - name: Polonia
+    flag: {fileID: 21300000, guid: 3b3c7cf8fcb76af4f80d890019ddc6f7, type: 3}
+  - name: Portugal
+    flag: {fileID: 21300000, guid: 8e3109bd2d2020e4a92ee4aa057eba37, type: 3}
+  - name: Catar
+    flag: {fileID: 21300000, guid: c28a4ae6682138e43a0c03926811919f, type: 3}
+  - name: Arabia Saudita
+    flag: {fileID: 21300000, guid: 364bccee5392303488ffe2955c95cd52, type: 3}
+  - name: Senegal
+    flag: {fileID: 21300000, guid: 59a31d5b35754454ebfbcf9c4c19ad7e, type: 3}
+  - name: Servia
+    flag: {fileID: 21300000, guid: 0ea17d108ce0a3a419aee970a5737769, type: 3}
+  - name: Coreia do Sul
+    flag: {fileID: 21300000, guid: dd9c922d404c6244aa28ddd494c86c3d, type: 3}
+  - name: Espanha
+    flag: {fileID: 21300000, guid: 74b44928a82ac4743b877c6fcbf530dc, type: 3}
+  - name: Suica
+    flag: {fileID: 21300000, guid: 412e2cbacf64912449c153b6bcf67800, type: 3}
+  - name: Tunisia
+    flag: {fileID: 21300000, guid: d6c743991cb728042bb897c034988b1b, type: 3}
+  - name: Estados Unidos
+    flag: {fileID: 21300000, guid: ead618333b59d254883b750159245031, type: 3}
+  - name: Uruguai
+    flag: {fileID: 21300000, guid: cadda61d7e3f1a943b7fbe3a64fd23c2, type: 3}
+  - name: Pais de Gales
+    flag: {fileID: 21300000, guid: 9fb7047c0db25ae46882f37fd0825374, type: 3}
+  challenges:
+  - name: embaixadinha
+    description: Faca o maximo de embaixadinhas em sequencia
+    difficultyGoalValues: 140000001e00000028000000
+    rule: {fileID: 6379266894441255016, guid: 7c38445ba8b669748a5dc6e4c8165c42, type: 3}
+  - name: tocar no lado
+    description: Faca a bola quicar nas paredes laterais
+    difficultyGoalValues: 0f000000140000001e000000
+    rule: {fileID: 5887376566235491774, guid: f7c33f0152774b0478c90fd6592f9451, type: 3}
+  - name: tocar em cima
+    description: Faca a bola quicar na parede superior
+    difficultyGoalValues: 140000002300000032000000
+    rule: {fileID: 4389070473312841197, guid: fa048da7648290e41abe67b69f57099c, type: 3}
+  - name: sem tocar no lado
+    description: 'faca o maximo de embaixadinhas sem fazer a bola quicar na parede
+      lateral '
+    difficultyGoalValues: 0a0000000f00000014000000
+    rule: {fileID: 7515672300365902766, guid: c6bb3150ab2d7514ca3178859d52edd1, type: 3}
+  - name: toque na parede em sequencia
+    description: faca com que cada embaixadinha toque, pelo menos, uma vez na parede
+    difficultyGoalValues: 0f000000140000001e000000
+    rule: {fileID: 7248364216263855590, guid: f6c70730b7018d643bca6054eb673419, type: 3}
+  - name: toque nas duas paredes
+    description: faca com que a bola encoste em ambas paredes laterais em uma embaixada
+    difficultyGoalValues: 0a0000000f00000014000000
+    rule: {fileID: 3168828855176404912, guid: 5658cfe855d73804a8a4e6beaee11c6c, type: 3}
+  - name: sem tocar o teto
+    description: faca o maximo de embaixadinhas sem fazer a bola quicar no teto
+    difficultyGoalValues: 0f000000140000001e000000
+    rule: {fileID: 3379263782798692859, guid: 5be515c127ae32948bb8f1075bceadf8, type: 3}

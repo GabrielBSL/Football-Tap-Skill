@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8269549524715272465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8269549524715272467}
+  - component: {fileID: 8269549524715272466}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8269549524715272467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269549524715272465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8269549524715272466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8269549524715272465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf355a67183735438c3e1fbbfc352ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 744d8adaa58806540a2ec638b40f1dde, type: 3}
+    volume: 0.4
+    pitch: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 623141f5daea5874687d9c089d9218c4, type: 3}
+    volume: 0.4
+    pitch: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: VictoryMusic
+    clip: {fileID: 8300000, guid: ef98169488c53ac429f2e25176f0a7f2, type: 3}
+    volume: 0.4
+    pitch: 1
+    isMusic: 1
+    source: {fileID: 0}
+  - name: ballBounce
+    clip: {fileID: 8300000, guid: 212b463e6b713134c857d4a7d71b20e6, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: ballKick
+    clip: {fileID: 8300000, guid: 4f39603f15bcc52449c8818c0e0c0985, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: crowdDisappointed
+    clip: {fileID: 8300000, guid: eb176afed6a578e409ca809c34ccddb2, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: crowdHyped
+    clip: {fileID: 8300000, guid: 77b1965dbbaddf249b463647e666510d, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: crowdHyped2
+    clip: {fileID: 8300000, guid: 70a569eba9469a241a530164ad8ff2a4, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: uiClick
+    clip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: refereeWhistle
+    clip: {fileID: 8300000, guid: 4b4fa4a9cc3d412459a69013021c18c6, type: 3}
+    volume: 0.7
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: keyPress
+    clip: {fileID: 8300000, guid: 83545f719338bda47a59a29be533232c, type: 3}
+    volume: 0.2
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: pointSoftReset
+    clip: {fileID: 8300000, guid: 23325abb74d82d242bed45be608fbac9, type: 3}
+    volume: 0.5
+    pitch: 1
+    isMusic: 0
+    source: {fileID: 0}
